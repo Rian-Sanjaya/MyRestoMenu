@@ -11,6 +11,8 @@
         android:id="@+id/img_item_photo"
         android:layout_width="150dp"
         android:layout_height="150dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
         android:layout_marginBottom="4dp"
         android:scaleType="centerCrop"
         tools:src="@color/colorAccent"/>
@@ -32,13 +34,14 @@
     <TextView
         android:id="@+id/tv_item_desc"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:layout_height="80dp"
         android:layout_below="@id/tv_item_name"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
         android:layout_toEndOf="@id/img_item_photo"
         android:layout_toRightOf="@id/img_item_photo"
         android:ellipsize="end"
+        android:textSize="12sp"
         android:maxLines="5"
         tools:text="@string/menu_desc" />
 
@@ -52,6 +55,8 @@
         android:layout_marginTop="16dp"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
         tools:text="@string/menu_price"
         />
 
